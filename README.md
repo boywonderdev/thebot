@@ -1,5 +1,7 @@
 [![Discord](https://discordapp.com/api/guilds/117523346618318850/widget.png)](https://discord.gg/nadekobot)
 [![Documentation Status](https://readthedocs.org/projects/nadekobot/badge/?version=latest)](http://nadekobot.readthedocs.io/en/latest/?badge=latest)
+I do not own or maintain NadekoBot. I edited NadekoBot from source into De5il#0199 and this github is used to host his files for easier changes and tracking.
+
 [![nadeko0](https://cdn.discordapp.com/attachments/266240393639755778/281920716809699328/part1.png)](https://nadekobot.me)
 
 
