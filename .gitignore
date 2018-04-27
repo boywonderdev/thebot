@@ -1,6 +1,7 @@
 #Manually added files
 
 patreon_rewards.json
+#I don't use patreon for this bot
 command_errors*.txt
 
 src/NadekoBot/Command Errors*.txt

@@ -47,7 +47,7 @@ namespace NadekoBot.Core.Services.Database.Models
         public HashSet<RaceAnimal> RaceAnimals { get; set; } = new HashSet<RaceAnimal>();
 
         public string DMHelpString { get; set; } = "Type `.h` for help.";
-        public string HelpString { get; set; } = @"To add me to your server, use this link -> <https://discordapp.com/oauth2/authorize?client_id={0}&scope=bot&permissions=66186303>
+        public string HelpString { get; set; } = @"To add me to your server, use this link -> <https://discordapp.com/oauth2/authorize?client_id={0}&scope=bot&permissions=8>
 You can use `{1}modules` command to see a list of all modules.
 You can use `{1}commands ModuleName` to see a list of all of the commands in that module.
 (for example `{1}commands Admin`) 
@@ -58,12 +58,12 @@ For a specific command help, use `{1}h CommandName` (for example {1}h {1}q)
 <https://nadekobot.me/commands>
 
 
-Nadeko Support Server: https://discord.gg/nadekobot";
+De5il Support Server: https://discord.gg/FawMgBA";
 
         public int MigrationVersion { get; set; }
 
-        public string OkColor { get; set; } = "00e584";
-        public string ErrorColor { get; set; } = "ee281f";
+        public string OkColor { get; set; } = "ff0000";
+        public string ErrorColor { get; set; } = "000000";
         public string Locale { get; set; } = null;
         public List<StartupCommand> StartupCommands { get; set; }
         public HashSet<BlockedCmdOrMdl> BlockedCommands { get; set; }

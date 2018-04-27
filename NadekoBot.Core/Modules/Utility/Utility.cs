@@ -1,4 +1,4 @@
-using Discord;
+﻿using Discord;
 using Discord.Commands;
 using System;
 using System.Linq;
@@ -236,10 +236,10 @@ namespace NadekoBot.Modules.Utility
 
             await Context.Channel.EmbedAsync(
                 new EmbedBuilder().WithOkColor()
-                    .WithAuthor(eab => eab.WithName($"NadekoBot v{StatsService.BotVersion}")
+                    .WithAuthor(eab => eab.WithName($"De5il#0199 Bot v{StatsService.BotVersion} - NadekoBot created by Kwoth#2560")
                                           .WithUrl("http://nadekobot.readthedocs.io/en/latest/")
-                                          .WithIconUrl("https://cdn.discordapp.com/avatars/116275390695079945/b21045e778ef21c96d175400e779f0fb.jpg"))
-                    .AddField(efb => efb.WithName(GetText("author")).WithValue(_stats.Author).WithIsInline(true))
+                                          .WithIconUrl("https://cdn.discordapp.com/avatars/428032174667595777/3c5312b6ae74936f969ac129b67c7dce.png?size=128"))
+                    .AddField(efb => efb.WithName(GetText("author")).WithValue($"Grim#4619").WithIsInline(true))
                     .AddField(efb => efb.WithName(GetText("botid")).WithValue(_client.CurrentUser.Id.ToString()).WithIsInline(true))
                     .AddField(efb => efb.WithName(GetText("shard")).WithValue($"#{_client.ShardId} / {_creds.TotalShards}").WithIsInline(true))
                     .AddField(efb => efb.WithName(GetText("commands_ran")).WithValue(_stats.CommandsRan.ToString()).WithIsInline(true))
